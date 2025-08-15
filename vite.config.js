@@ -27,7 +27,7 @@ const __dirname = path.dirname(__filename)
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-   base: import.meta.env.VITE_BASE_PATH || "/ChandanaPortfolio",
+  //  base: import.meta.env.VITE_BASE_PATH || "/ChandanaPortfolio",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
